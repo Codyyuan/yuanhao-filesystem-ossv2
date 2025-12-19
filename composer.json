@@ -1,0 +1,22 @@
+{
+  "name": "yuanhao/filesystem-ossv2",
+  "description": "基于flysystem适配ossv2版本",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Yuan\\FilesystemOssv2\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "yuanhao",
+      "email": "1971190821@qq.com"
+    }
+  ],
+  "require": {
+    "php": "^8.0",
+    "league/flysystem": "^3.0",
+    "alibabacloud/oss-v2": "^0.3"
+  }
+}
